@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#Export DISPLAY
+# Export DISPLAY
 export DISPLAY=:0.0
 
-#Call Gnome EOG
+# Call Gnome EOG
 /usr/bin/eog -f ../DataAnalysisTraining/img.png &
 
-#Time to display
-sleep 3
+# Time to display
+sleep 5
 
 killall eog
